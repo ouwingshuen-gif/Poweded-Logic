@@ -1,0 +1,1 @@
+npx create-next-app@latest echomind --typescript --tailwind --app

@@ -1,0 +1,12 @@
+echomind/
+├── package.json
+├── tailwind.config.js
+├── src/
+│   └── app/
+│       ├── layout.tsx         # 全局布局（字体、样式导入）
+│       ├── page.tsx           # 首页：语言分区选择（Language Zone）
+│       ├── arena/
+│       │   └── page.tsx       # 核心页：表达训练场与辩手导师点评
+│       └── api/
+│           └── judge/
+│               └── route.ts   # 后端：AI 辩手导师 API（Vercel 云函数）
